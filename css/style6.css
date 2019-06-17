@@ -1,0 +1,365 @@
+body
+{
+        font-family: Raleway, san-serif;
+}
+.header
+{
+    background-image: url(../image/sea.jpg);
+    height: 650px;
+    overflow: auto;
+    animation-name: backg;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes backg
+{
+    to{ background-image: url(../image/sea.jpg);} 
+    from{ background-image: url(../image/sea1.jpg);}
+}
+.header p:after
+{
+    content: " |";
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+    transition: all 1s;
+}
+@keyframes typing
+{
+    0%{content: "|";}
+    5%{content: "D|";}
+    10%{content: "De|";}
+    15%{content: "Des|";}
+    20%{content: "Desi|";}
+    25%{content: "Desig|";}
+    30%{content: "Design|";}
+    35%{content: "Designi|";}
+    40%{content: "Designin|";}
+    45%{content: "Designing|";}
+    50%{content: "Designing |";}
+    55%{content: "Designing L|";}
+    60%{content: "Designing Lo|";} 
+    65%{content: "Designing Log|";} 
+    70%{content: "Designing Logo|";} 
+    75%{content: "Designing |";} 
+    80%{content: "Designing U|";}
+    85%{content: "Designing UX|";}
+    90%{content: "Designing UX/|";}
+    95%{content: "Designing UX/U|";} 
+    100%{content: "Designing UX/UI|";}
+  
+}
+
+.ba
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 650px;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+.navbar-brand
+{
+    font-size: 25px;
+    font-weight: 800;
+}
+ .navbar-nav
+{
+    font-weight: 800;
+    font-size: 13px;
+}
+.sec
+{
+    color: #fff;
+}
+.sec h1
+{
+    font-weight: 800;
+    font-size: 80px;
+    margin-top: 140px;
+}
+.sec p
+{
+    font-size: 30px;
+}
+.aboutme
+{
+   margin-top: 100px;
+    margin-bottom: 50px;
+}
+.aboutme h5
+{
+    padding:15px 0px;
+    color: dimgray;
+}
+
+.about1
+{
+    position: relative;
+    background-color: rgba(0,0,0,0.1);
+    width: 90%;
+    height: 400px;
+    margin-top: 70px;
+    margin-right: 90px;
+   
+ 
+}
+.about1 img
+{
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    left: 40px;
+    top: -70px;
+    
+   
+}
+.aboutme p
+{
+    color: gray;
+}
+.icon i
+{
+    border-radius: 50px;
+    background-color: #222;
+    margin-right: 10px;
+    color: #fff;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    transition: all 0.5;
+}
+.icon i:hover 
+{
+    background-color: #fff;
+    color: #222;
+    border: solid 1px #222;
+}
+.x
+{
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: none;
+    padding: 15px 20px;
+    transition: all 0.5;
+}
+.x:hover
+{
+    border: solid 2px #222;
+    color: gray;
+    background-color: #fff;
+}
+.service
+{
+    padding-top: 50px;
+    background-color:  rgb(242, 242, 242);
+    padding-bottom: 30px;
+}
+.service i
+{
+    font-size: 30px;
+    border: solid 1px rgb(227, 227, 227);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    padding: 25px;
+    transition: all 0.1s;
+}
+.ser:hover i
+{
+    background-color: #f8f9fa;
+    border: none;
+    transform: scale(1,1);
+}
+.ser h5
+{
+    font-weight: bolder;
+}
+.ser p
+{
+    color: rgb(116, 129, 130);
+    font-size: 19px;
+}
+.like
+{
+    background-image: url(../image/stats-bg.jpg);
+    background-position: 50% 50%;
+    background-attachment: fixed;
+   
+}
+.like1
+{
+    background-color: rgba(0,0,0,0.5);
+    height: auto;
+    padding: 100px 0px;
+    
+}
+.likes
+{
+    color: #fff; 
+    margin-bottom: 20px;
+}
+.likes i
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.PORTFOLIO
+{
+    margin-bottom: 50px;
+}
+.PORTFOLIO a
+{
+    color: black;
+}
+.nav-pills .nav-link.active
+{
+    background-color: rosybrown;
+}
+.par
+{
+    position: relative;
+}
+.hav i
+{
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+
+}
+.hav
+{
+    background-color:#f8f9fa;
+    color: black;
+    padding: 100px  100px;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    opacity: 0;
+    transition: all 2s;
+    width: 90%;
+    height: 80%;
+}
+.hav:hover
+{
+    opacity: 1;
+}
+.works
+{
+    background-color:  rgb(242, 242, 242);
+    padding-top: 80px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+.work1
+{
+    background-color: #fff;
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+}
+.work1 span
+{
+    color: darkgray;
+}
+.work1 .btn1
+{
+    border: none;
+    background-color: #fff;
+}
+.work1 h5
+{
+    padding-top: 20px;
+}
+.work1 p
+{
+    color: darkgray;
+    font-size: 19px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.work2
+{
+    overflow: hidden;
+}
+.work2 img
+{
+    transition: all 1s;
+}
+ .work2 img:hover
+{
+    transform: scale(1.1,1.1);
+}
+.slider
+{
+    background-image: url(../image/testimonials-bg.jpg);
+    background-position: 10% 10%;
+    background-attachment: fixed;
+  
+}
+.slider1
+{
+   background-color: rgba(0,0,0,0.5);
+    height: 100%;  
+}
+
+.carousel-item
+{
+    background-color: rgba(0,0,0,0);
+    height: 80%;
+    font-weight: bolder;
+}
+.carousel-caption img
+{
+    border-radius: 50%;
+    width: 160px; 
+}
+.carousel-caption p
+{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.carousel-indicators li
+{
+    border-radius:40%;
+    padding: 5px 0px;
+    margin-right: 10px;
+    width: 20px;
+}
+.contact
+{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    
+}
+.contact .in1
+{
+    width: 100%;
+    border: none;
+    border-bottom: solid 2px black;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.contact .in2
+{
+     width: 100%;
+    border: none;
+    border-bottom: solid 2px black;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+.footer
+{
+        background: rgb(34, 34, 34);
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.footer .foot
+{
+    margin-top: 40px;
+    color: gray;
+}
